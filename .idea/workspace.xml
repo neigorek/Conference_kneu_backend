@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05d23cd2-7d14-4875-922d-feb0ba13efa1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kurs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/505.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/WiredTiger" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/WiredTiger.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/WiredTiger.turtle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/WiredTiger.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/WiredTigerLAS.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/_mdb_catalog.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/collection-0--7605943293642667043.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/collection-2--7605943293642667043.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/collection-4--7605943293642667043.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/diagnostic.data/metrics.2019-11-28T10-25-43Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/index-1--7605943293642667043.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/index-3--7605943293642667043.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/index-5--7605943293642667043.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/index-6--7605943293642667043.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/journal/WiredTigerLog.0000000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/journal/WiredTigerPreplog.0000000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/journal/WiredTigerPreplog.0000000002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/mongod.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/sizeStorer.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/storage.bson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/conference.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/person.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/users.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/auth/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/auth/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/auth/verifyToken.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/conference.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/person.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/posts.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1SPaIsRGYDq8Wm4amVIYn63OC47" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/routes/auth" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05d23cd2-7d14-4875-922d-feb0ba13efa1" name="Default Changelist" comment="" />
+      <created>1571467607571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571467607571</updated>
+      <workItem from="1571467608746" duration="4992000" />
+      <workItem from="1571482464812" duration="7528000" />
+      <workItem from="1574935487994" duration="25328000" />
+      <workItem from="1575029843836" duration="930000" />
+      <workItem from="1575291554369" duration="690000" />
+      <workItem from="1575303693973" duration="342000" />
+      <workItem from="1575304065770" duration="7000" />
+      <workItem from="1575368881808" duration="240000" />
+      <workItem from="1575473255358" duration="3820000" />
+      <workItem from="1576746841782" duration="4301000" />
+      <workItem from="1576769578380" duration="15000" />
+      <workItem from="1577102436008" duration="13207000" />
+      <workItem from="1577953156981" duration="298000" />
+      <workItem from="1577958358753" duration="476000" />
+      <workItem from="1584808875158" duration="3040000" />
+      <workItem from="1584948610851" duration="14000" />
+      <workItem from="1584982158486" duration="3748000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="628" y="287" key="FileChooserDialogImpl" timestamp="1584811619987">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="628" y="287" key="FileChooserDialogImpl/0.0.1680.1050@0.0.1680.1050" timestamp="1584811619987" />
+    <state x="496" y="282" width="786" height="486" key="find.popup" timestamp="1584985661888">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="496" y="282" width="786" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584985661888" />
+    <state x="489" y="191" key="scopes" timestamp="1584812320485">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="489" y="191" key="scopes/0.0.1680.1050@0.0.1680.1050" timestamp="1584812320485" />
+  </component>
+</project>
