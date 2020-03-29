@@ -2,47 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d23cd2-7d14-4875-922d-feb0ba13efa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kurs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/505.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/WiredTiger" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/WiredTiger.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/WiredTiger.turtle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/WiredTiger.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/WiredTigerLAS.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/_mdb_catalog.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/collection-0--7605943293642667043.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/collection-2--7605943293642667043.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/collection-4--7605943293642667043.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/diagnostic.data/metrics.2019-11-28T10-25-43Z-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/index-1--7605943293642667043.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/index-3--7605943293642667043.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/index-5--7605943293642667043.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/index-6--7605943293642667043.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/journal/WiredTigerLog.0000000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/journal/WiredTigerPreplog.0000000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/journal/WiredTigerPreplog.0000000002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/mongod.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/sizeStorer.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/storage.bson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/conference.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/person.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/users.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/auth/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/auth/validation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/auth/verifyToken.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/conference.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/person.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/auth/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/auth/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/auth/verifyToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/auth/verifyToken.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +84,8 @@
       <workItem from="1577958358753" duration="476000" />
       <workItem from="1584808875158" duration="3040000" />
       <workItem from="1584948610851" duration="14000" />
-      <workItem from="1584982158486" duration="3748000" />
+      <workItem from="1584982158486" duration="4539000" />
+      <workItem from="1585462938752" duration="1179000" />
     </task>
     <servers />
   </component>
@@ -133,10 +97,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="628" y="287" key="FileChooserDialogImpl/0.0.1680.1050@0.0.1680.1050" timestamp="1584811619987" />
-    <state x="496" y="282" width="786" height="486" key="find.popup" timestamp="1584985661888">
+    <state x="496" y="282" width="786" height="486" key="find.popup" timestamp="1585463453565">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="496" y="282" width="786" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584985661888" />
+    <state x="496" y="282" width="786" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1585463453565" />
     <state x="489" y="191" key="scopes" timestamp="1584812320485">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

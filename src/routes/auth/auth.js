@@ -14,24 +14,23 @@ const { registerValidation, loginValidation } = require('./validation');
 
 //REGISTRATION
 router.post('/registration', async (req, res) => {
-
-    const { error } = registerValidation(req.body);
+    const { error } = registerValidation(req.query);
     if (error) return res.status(400).send(error.details[0].message);
 
-    const emailExist = await userModel.findOne({email: req.body.email})
+    const emailExist = await userModel.findOne({email: req.query.email})
     if (emailExist) return res.status(400).send('Email already exists');
 
 
     //HASH PASSWORD
     const salt = await bCrypt.genSalt(10);
-    const hashedPassword = await bCrypt.hash(req.body.password, salt)
+    const hashedPassword = await bCrypt.hash(req.query.password, salt)
 
     const user = new userModel({
-        login: req.body.login,
+        login: req.query.login,
         password: hashedPassword,
-        email: req.body.email,
-        firstName: req.body.firstName,
-        lastName: req.body.lastName,
+        email: req.query.email,
+        firstName: req.query.firstName,
+        lastName: req.query.lastName,
     });
     try {
         const result = await user.save();
@@ -45,9 +44,6 @@ router.post('/registration', async (req, res) => {
 
 //LOGIN
 router.post('/login', async (req, res) => {
-    console.log(req,'CALID PASS')
-    console.log(req.body.email, 'tokenLIST-----!!!!');
-
     let refreshTokens = {};
     //Lets Validate the data before we a user
     const { error } = loginValidation(req.query);
@@ -65,8 +61,8 @@ router.post('/login', async (req, res) => {
     //Create and assign TOKEN
     const token = jwt.sign({_id: user._id}, process.env.TOKEN_SECRET, {expiresIn: process.env.TOKEN_LIFE});
     // const refreshToken = randToken.uid(256);
-    const refreshToken = jwt.sign(req.body, process.env.REFRESH_TOKEN_SECRET, {expiresIn: process.env.REFRESH_TOKEN_LIFE});
-    tokenList[refreshToken] = req.query.email
+    const refreshToken = jwt.sign(req.query, process.env.REFRESH_TOKEN_SECRET, {expiresIn: process.env.REFRESH_TOKEN_LIFE});
+    tokenList[refreshToken] = req.query.email;
     res.json({token: token, refreshToken})
 });
 
