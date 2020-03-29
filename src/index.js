@@ -10,7 +10,7 @@ const personRoute = require('./routes/person');
 const conferenceRoute = require('./routes/conference');
 const authRoute = require('./routes/auth/auth');
 const postRoute = require('./routes/posts');
-mongoose.connect(process.env.DB_CONNECT,
+mongoose.connect(process.env.REMOTE_DB_CENNECT,
     { useUnifiedTopology: true, useNewUrlParser: true },
     () => { console.log('connected------------------------', process.env.DB_CONNECT)
 });
