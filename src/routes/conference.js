@@ -63,7 +63,9 @@ router.post('/conference/add/:id', async (req, res) => {
     }
 });
 
-router.get('*', (req, res) => {
+
+//ANGULAR ROUTERS
+router.get(['/landing', '/landing/conferences', '/landing/conferences/:id', '/landing/reg'], (req, res) => {
     res.sendfile('./public/index.html');
 });
 
