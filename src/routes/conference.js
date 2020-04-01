@@ -61,6 +61,11 @@ router.post('/conference/add/:id', async (req, res) => {
                 res.status(201).send(doc);
             })
     }
-})
+});
+
+router.get('*', (req, res) => {
+    res.sendfile('./public/index.html');
+});
+
 
 module.exports = router;
