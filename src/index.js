@@ -17,12 +17,12 @@ const authRoute = require('./routes/auth/auth');
 const postRoute = require('./routes/posts');
 app.use(cors());
 
-mongoose.connect(process.env.REMOTE_DB_CENNECT,
+mongoose.connect(process.env.DB_CONNECT,
     { useUnifiedTopology: true, useNewUrlParser: true },
     () => { console.log('connected------------------------', process.env.REMOTE_DB_CENNECT)
 });
 
-const conn = mongoose.createConnection(process.env.REMOTE_DB_CENNECT,
+const conn = mongoose.createConnection(process.env.DB_CONNECT,
     {useUnifiedTopology: true, useNewUrlParser: true })
 
 let gfs;
@@ -34,7 +34,7 @@ conn.once('open', () => {
 
 // Storage
 const storage = new GridFsStorage({
-    url: process.env.REMOTE_DB_CENNECT,
+    url: process.env.DB_CONNECT,
     file: (req, file) => {
         return new Promise((resolve, reject) => {
             crypto.randomBytes(16, (err, buf) => {
@@ -83,15 +83,24 @@ app.get('/files', (req, res) => {
 });
 
 app.get('/files/:filename', (req, res) => {
-    gfs.files.findOne({ filename: req.params.filename }, (err, file) => {
-        // Check if file
-        if (!file || file.length === 0) {
+
+    gfs.files.find({ filename: req.params.filename  }).toArray((err, files) => {
+        if(!files || files.length === 0){
             return res.status(404).json({
-                err: 'No file exists'
+                responseCode: 1,
+                responseMessage: "error"
             });
         }
-        // If File exists this will get executed
-        const readstream = gfs.createReadStream(file.filename);
+        // create read stream
+        var readstream = gfs.createReadStream({
+            filename: files[0].filename,
+            root: "uploads"
+        });
+
+        res.set('Content-Type', files[0].content_type)
+        res.set('Content-Disposition', `attachment; filename=${files[0].filename}`);
+
+        // Return response
         return readstream.pipe(res);
     });
 });
