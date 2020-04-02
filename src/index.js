@@ -17,12 +17,12 @@ const authRoute = require('./routes/auth/auth');
 const postRoute = require('./routes/posts');
 app.use(cors());
 
-mongoose.connect(process.env.DB_CONNECT,
+mongoose.connect(process.env.REMOTE_DB_CENNECT,
     { useUnifiedTopology: true, useNewUrlParser: true },
     () => { console.log('connected------------------------', process.env.REMOTE_DB_CENNECT)
 });
 
-const conn = mongoose.createConnection(process.env.DB_CONNECT,
+const conn = mongoose.createConnection(process.env.REMOTE_DB_CENNECT,
     {useUnifiedTopology: true, useNewUrlParser: true })
 
 let gfs;
@@ -34,7 +34,7 @@ conn.once('open', () => {
 
 // Storage
 const storage = new GridFsStorage({
-    url: process.env.DB_CONNECT,
+    url: process.env.REMOTE_DB_CENNECT,
     file: (req, file) => {
         return new Promise((resolve, reject) => {
             crypto.randomBytes(16, (err, buf) => {
