@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="05d23cd2-7d14-4875-922d-feb0ba13efa1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/conference.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/conference.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,7 @@
       <workItem from="1584982158486" duration="4539000" />
       <workItem from="1585462938752" duration="39294000" />
       <workItem from="1585850379365" duration="3704000" />
-      <workItem from="1586167459034" duration="7304000" />
+      <workItem from="1586167459034" duration="7747000" />
     </task>
     <servers />
   </component>
