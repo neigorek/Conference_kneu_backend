@@ -12,6 +12,7 @@ let conferenceSchema = new mongoose.Schema({
     description: String,
     workVectors: [],
     image: [],
+    defaultDocument: String,
     documents: [
         {
             docName: String,

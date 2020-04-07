@@ -40,7 +40,6 @@ router.patch('/conference/:id', async (req, res) => {
         let id = req.params.id;
         ConferenceModel.findOneAndUpdate({_id: id}, {$set: updateBody}, {new: true})
             .then(doc => {
-                console.log(doc)
                 if (!doc) {
                     return res.status(500);
                 }

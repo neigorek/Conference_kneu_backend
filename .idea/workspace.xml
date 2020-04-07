@@ -4,6 +4,8 @@
     <list default="true" id="05d23cd2-7d14-4875-922d-feb0ba13efa1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/conference.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/conference.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/conference.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/conference.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +85,9 @@
       <workItem from="1584808875158" duration="3040000" />
       <workItem from="1584948610851" duration="14000" />
       <workItem from="1584982158486" duration="4539000" />
-      <workItem from="1585462938752" duration="36373000" />
+      <workItem from="1585462938752" duration="39294000" />
+      <workItem from="1585850379365" duration="3704000" />
+      <workItem from="1586167459034" duration="6717000" />
     </task>
     <servers />
   </component>
@@ -99,10 +103,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="628" y="287" key="FileChooserDialogImpl/0.0.1680.1050@0.0.1680.1050" timestamp="1584811619987" />
-    <state x="496" y="282" width="786" height="486" key="find.popup" timestamp="1585731136503">
+    <state x="496" y="282" width="786" height="486" key="find.popup" timestamp="1586239452343">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="496" y="282" width="786" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1585731136503" />
+    <state x="496" y="282" width="786" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1586239452343" />
+    <state x="505" y="248" key="run.anything.popup" timestamp="1585844007870">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="248" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1585844007870" />
     <state x="489" y="191" key="scopes" timestamp="1584812320485">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
