@@ -23,7 +23,14 @@ let conferenceSchema = new mongoose.Schema({
             course: String,
             tel: String,
             email: String,
-            fileName: String
+            fileName: String,
+            comments: [
+                {
+                    name: String,
+                    text: String,
+                    date: Date
+                }
+            ]
         }
     ],
     organizationPeople: {

@@ -18,7 +18,7 @@ const postRoute = require('./routes/posts');
 app.use(cors());
 
 mongoose.connect(process.env.REMOTE_DB_CENNECT,
-    { useUnifiedTopology: true, useNewUrlParser: true },
+    { useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false },
     () => { console.log('connected------------------------', process.env.REMOTE_DB_CENNECT)
 });
 

@@ -62,6 +62,21 @@ router.post('/conference/add/:id', async (req, res) => {
     }
 });
 
+router.post('/conference/comment/:docId', (req, res) => {
+    if (req.params.docId && req.body) {
+        ConferenceModel.findOneAndUpdate(
+            {'documents._id': req.params.docId},
+            {$push: {'documents.$.comments': req.body}},
+            {new: true}
+            ).then(doc => {
+                if (!doc) {
+                    return res.status(500);
+                }
+                res.status(201).send(doc);
+            });
+    }
+});
+
 
 //ANGULAR ROUTERS
 router.get(['/landing', '/landing/conferences', '/landing/conferences/:id', '/landing/reg',
