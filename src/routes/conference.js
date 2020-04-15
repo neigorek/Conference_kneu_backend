@@ -1,3 +1,4 @@
+const mailer = require('../middleware/nodemailer');
 const express = require('express');
 const router = express.Router();
 
@@ -62,16 +63,20 @@ router.post('/conference/add/:id', async (req, res) => {
     }
 });
 
-router.post('/conference/comment/:docId', (req, res) => {
+router.post('/conference/:id/comment/:docId', (req, res) => {
+
     if (req.params.docId && req.body) {
         ConferenceModel.findOneAndUpdate(
             {'documents._id': req.params.docId},
             {$push: {'documents.$.comments': req.body}},
-            {new: true}
             ).then(doc => {
                 if (!doc) {
                     return res.status(500);
                 }
+            const email = doc.documents.find(d => d._id == req.params.docId)
+            if (email) {
+                mailer.sendEmail(email)
+            }
                 res.status(201).send(doc);
             });
     }

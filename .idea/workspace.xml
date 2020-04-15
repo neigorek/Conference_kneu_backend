@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05d23cd2-7d14-4875-922d-feb0ba13efa1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/middleware/nodemailer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/conference.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/conference.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/conference.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/conference.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,11 +89,26 @@
       <workItem from="1585462938752" duration="39294000" />
       <workItem from="1585850379365" duration="3704000" />
       <workItem from="1586167459034" duration="8660000" />
+      <workItem from="1586863674386" duration="68000" />
+      <workItem from="1586880117583" duration="16545000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="932" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585520769725">
@@ -104,10 +119,30 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="628" y="287" key="FileChooserDialogImpl/0.0.1680.1050@0.0.1680.1050" timestamp="1584811619987" />
-    <state x="496" y="282" width="786" height="486" key="find.popup" timestamp="1586859845497">
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom" timestamp="1586885807540">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="496" y="282" width="786" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1586859845497" />
+    <state width="1659" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1586885807540" />
+    <state width="1659" height="295" key="GridCell.Tab.0.center" timestamp="1586885807539">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1586885807539" />
+    <state width="1659" height="295" key="GridCell.Tab.0.left" timestamp="1586885807538">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1586885807538" />
+    <state width="1659" height="295" key="GridCell.Tab.0.right" timestamp="1586885807540">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1659" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1586885807540" />
+    <state x="650" y="243" key="RollbackChangesDialog" timestamp="1586863345011">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="650" y="243" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586863345011" />
+    <state x="496" y="282" width="786" height="486" key="find.popup" timestamp="1586942044274">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="496" y="282" width="786" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1586942044274" />
     <state x="505" y="248" key="run.anything.popup" timestamp="1585844007870">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -120,17 +155,5 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1586760356379" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/index.js</url>
-          <line>20</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
