@@ -69,11 +69,12 @@ router.post('/conference/:id/comment/:docId', (req, res) => {
         ConferenceModel.findOneAndUpdate(
             {'documents._id': req.params.docId},
             {$push: {'documents.$.comments': req.body}},
+            {new: true}
             ).then(doc => {
                 if (!doc) {
                     return res.status(500);
                 }
-            const email = doc.documents.find(d => d._id == req.params.docId)
+            const email = doc.documents.find(d => d._id == req.params.docId).email;
             if (email) {
                 mailer.sendEmail(email)
             }

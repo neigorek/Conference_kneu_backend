@@ -16,7 +16,7 @@ let conferenceSchema = new mongoose.Schema({
     documents: [
         {
             docName: String,
-            fistName: String,
+            firstName: String,
             lastName: String,
             thirdName: String,
             studyPlace: String,
